@@ -30,7 +30,7 @@ rateinLuno() {}
 rateinBitstamp() {}
 
 market_rate() { Ability to switch source channel }
-'If rateinPoloniex() error next
-'If rateinLuno() error next
-'If rateinBitstamp() error next
-'Last to no avail shows Connection Errors Lost of Connection
+'If rateinPoloniex() error unable to pick up rate next
+'If rateinLuno() error unable to pick up rate next
+'If rateinBitstamp() error unable to pick up rate next
+'Last to no avail shows Connection Errors message as Lost of Connection
