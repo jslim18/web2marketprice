@@ -16,7 +16,7 @@ function market_rate(ticker)
       return rate3;
     } else { return 1; }
     
-    if(response.getResponseCode() === 403) {
+    if(response.getResponseCode() === 403 || response.getResponseCode() === 500) {
       return 0;
     }
   }
