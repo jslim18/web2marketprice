@@ -23,13 +23,13 @@ https://www.bitstamp.net/api/v2/ticker/
 YOUR TASK
 ==========
 
-rateinPoloniex() {}
+rateinPoloniex(ticker) {}
 
-rateinLuno() {}
+rateinLuno(ticker) {}
 
-rateinBitstamp() {}
+rateinBitstamp(ticker) {}
 
-market_rate() { Ability to switch source channel }
+market_rate(ticker) { Ability to switch source channel }
 'If rateinPoloniex() error unable to pick up rate next
 'If rateinLuno() error unable to pick up rate next
 'If rateinBitstamp() error unable to pick up rate next
