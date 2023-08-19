@@ -20,6 +20,8 @@ BITSTAMP
 https://www.bitstamp.net/api/v2/ticker/
 
 
+YOUR TASK:
+==========
 
 rateinPoloniex() {}
 
