@@ -1,5 +1,5 @@
 
-function market_rate(ticker)
+function rateinPoloniex(ticker)
 {
   try {
     var response = UrlFetchApp.fetch("https://poloniex.com/public?command=returnTicker");
